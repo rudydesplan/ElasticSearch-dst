@@ -1,0 +1,726 @@
+{
+  "took": 5,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "top_products": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 2872,
+      "buckets": [
+        {
+          "key": "1078",
+          "doc_count": 562,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "862",
+          "doc_count": 462,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1094",
+          "doc_count": 410,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1081",
+          "doc_count": 337,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "872",
+          "doc_count": 335,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "829",
+          "doc_count": 288,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1110",
+          "doc_count": 284,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "895",
+          "doc_count": 246,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "936",
+          "doc_count": 217,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "850",
+          "doc_count": 205,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "868",
+          "doc_count": 198,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "867",
+          "doc_count": 187,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1059",
+          "doc_count": 180,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "863",
+          "doc_count": 178,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1080",
+          "doc_count": 175,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1086",
+          "doc_count": 165,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1083",
+          "doc_count": 156,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1095",
+          "doc_count": 156,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1077",
+          "doc_count": 148,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1022",
+          "doc_count": 144,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "860",
+          "doc_count": 143,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "873",
+          "doc_count": 143,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1033",
+          "doc_count": 138,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1056",
+          "doc_count": 136,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "861",
+          "doc_count": 135,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "828",
+          "doc_count": 134,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "820",
+          "doc_count": 130,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1008",
+          "doc_count": 127,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "984",
+          "doc_count": 124,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1092",
+          "doc_count": 122,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "927",
+          "doc_count": 114,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "834",
+          "doc_count": 106,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "836",
+          "doc_count": 104,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "831",
+          "doc_count": 99,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1072",
+          "doc_count": 97,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1104",
+          "doc_count": 93,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "907",
+          "doc_count": 90,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1020",
+          "doc_count": 88,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1025",
+          "doc_count": 83,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1035",
+          "doc_count": 83,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1099",
+          "doc_count": 83,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "940",
+          "doc_count": 83,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "877",
+          "doc_count": 80,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "854",
+          "doc_count": 79,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "864",
+          "doc_count": 77,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "975",
+          "doc_count": 75,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "833",
+          "doc_count": 74,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "835",
+          "doc_count": 71,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "886",
+          "doc_count": 68,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1082",
+          "doc_count": 66,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "865",
+          "doc_count": 66,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1068",
+          "doc_count": 65,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "964",
+          "doc_count": 62,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1037",
+          "doc_count": 60,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1066",
+          "doc_count": 60,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1060",
+          "doc_count": 59,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "909",
+          "doc_count": 59,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "875",
+          "doc_count": 58,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "939",
+          "doc_count": 56,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1009",
+          "doc_count": 55,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "996",
+          "doc_count": 55,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "903",
+          "doc_count": 53,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1028",
+          "doc_count": 52,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1087",
+          "doc_count": 52,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "824",
+          "doc_count": 52,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "825",
+          "doc_count": 52,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "949",
+          "doc_count": 52,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "876",
+          "doc_count": 51,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1047",
+          "doc_count": 50,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "823",
+          "doc_count": 50,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "830",
+          "doc_count": 50,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1089",
+          "doc_count": 49,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1038",
+          "doc_count": 44,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "941",
+          "doc_count": 43,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "866",
+          "doc_count": 42,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "945",
+          "doc_count": 42,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1098",
+          "doc_count": 41,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "933",
+          "doc_count": 40,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1030",
+          "doc_count": 39,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "857",
+          "doc_count": 38,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1096",
+          "doc_count": 37,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1111",
+          "doc_count": 36,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "993",
+          "doc_count": 35,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "869",
+          "doc_count": 34,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "839",
+          "doc_count": 33,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1075",
+          "doc_count": 32,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1091",
+          "doc_count": 31,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1100",
+          "doc_count": 31,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "815",
+          "doc_count": 31,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "819",
+          "doc_count": 30,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "881",
+          "doc_count": 30,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "985",
+          "doc_count": 30,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "906",
+          "doc_count": 29,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "883",
+          "doc_count": 28,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1001",
+          "doc_count": 27,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1024",
+          "doc_count": 27,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1070",
+          "doc_count": 27,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "1074",
+          "doc_count": 27,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "169",
+          "doc_count": 27,
+          "average_rating": {
+            "value": 5.0
+          }
+        },
+        {
+          "key": "974",
+          "doc_count": 27,
+          "average_rating": {
+            "value": 5.0
+          }
+        }
+      ]
+    }
+  }
+}
